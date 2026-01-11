@@ -1,8 +1,8 @@
 {
-    "item.forgemodtest.steel_hammer": "Steel Hammer",
-    "item.forgemodtest.steel_club": "Steel Club",
-    "item.forgemodtest.steel_dagger": "Steel Dagger",
-    "item.forgemodtest.steel_spear": "Steel Spear",
-    "item.forgemodtest.steel_glaive": "Steel Glaive",
-    "item.forgemodtest.steel_quarterstaff": "Steel Quarterstaff"
+    "item.basicsteelweapons.steel_hammer": "Steel Hammer",
+    "item.basicsteelweapons.steel_club": "Steel Club",
+    "item.basicsteelweapons.steel_dagger": "Steel Dagger",
+    "item.basicsteelweapons.steel_spear": "Steel Spear",
+    "item.basicsteelweapons.steel_glaive": "Steel Glaive",
+    "item.basicsteelweapons.steel_quarterstaff": "Steel Quarterstaff"
 }

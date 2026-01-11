@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "forgemodtest:item/steel_dagger"
+        "layer0": "basicsteelweapons:item/steel_dagger"
     }
 }

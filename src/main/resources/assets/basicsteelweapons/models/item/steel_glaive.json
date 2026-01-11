@@ -2,17 +2,17 @@
   "parent": "minecraft:item/handheld",
   "loader": "forge:separate_transforms",
   "base": {
-    "parent": "forgemodtest:item/steel_glaive_held"
+    "parent": "basicsteelweapons:item/steel_glaive_held"
   },
   "perspectives": {
     "gui": {
-      "parent": "forgemodtest:item/steel_glaive_gui"
+      "parent": "basicsteelweapons:item/steel_glaive_gui"
     },
     "ground": {
-      "parent": "forgemodtest:item/steel_glaive_gui"
+      "parent": "basicsteelweapons:item/steel_glaive_gui"
     },
     "fixed": {
-      "parent": "forgemodtest:item/steel_glaive_gui"
+      "parent": "basicsteelweapons:item/steel_glaive_gui"
     }
   }
 }

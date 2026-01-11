@@ -1,6 +1,6 @@
 {
-  "parent": "forgemodtest:item/handheld_big_staff",
+  "parent": "basicsteelweapons:item/handheld_big_staff",
   "textures": {
-    "layer0": "forgemodtest:item/steel_quarterstaff_held"
+    "layer0": "basicsteelweapons:item/steel_quarterstaff_held"
   }
 }
