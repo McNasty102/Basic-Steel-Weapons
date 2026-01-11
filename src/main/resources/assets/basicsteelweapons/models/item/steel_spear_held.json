@@ -1,0 +1,6 @@
+{
+  "parent": "basicsteelweapons:item/handheld_big_spear",
+  "textures": {
+    "layer0": "basicsteelweapons:item/steel_spear_held"
+  }
+}

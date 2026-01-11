@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " OO",
+    "O/ ",
+    "/  "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "goldenmaus_steel_tools:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "basicsteelweapons:steel_glaive",
+    "count": 1
+  }
+}
+

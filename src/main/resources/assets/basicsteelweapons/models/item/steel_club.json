@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "basicsteelweapons:item/steel_club"
+    }
+}
