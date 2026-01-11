@@ -1,0 +1,6 @@
+{
+  "parent": "forgemodtest:item/handheld_big_glaive",
+  "textures": {
+    "layer0": "forgemodtest:item/steel_glaive_held"
+  }
+}

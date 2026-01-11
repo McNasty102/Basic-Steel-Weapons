@@ -1,6 +1,8 @@
 package net.mcnasty.basicsteelweapons;
 
 import com.mojang.logging.LogUtils;
+
+import net.mcnasty.basicsteelweapons.item.BSWItem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -42,6 +44,8 @@ public class BasicSteelWeapons
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        BSWItem.register(modEventBus);
+        
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -60,7 +64,14 @@ public class BasicSteelWeapons
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-    	
+        if(event.getTabKey() == CreativeModeTabs.COMBAT){
+            event.accept(BSWItem.STEEL_HAMMER);
+            event.accept(BSWItem.STEEL_CLUB);
+            event.accept(BSWItem.STEEL_DAGGER);
+            event.accept(BSWItem.STEEL_SPEAR);
+            event.accept(BSWItem.STEEL_GLAIVE);
+            event.accept(BSWItem.STEEL_QUARTERSTAFF);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
